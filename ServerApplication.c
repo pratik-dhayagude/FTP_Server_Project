@@ -1,4 +1,4 @@
-/*
+  /*
     Server apllication
 */
 
@@ -71,8 +71,8 @@ int main(int argc , char * argv[])
 
     pid_t pid = 0;  // creating a variable
 
-    struct sockaddr_in ServerAddr;
-    struct sockaddr_in ClinetAddr;
+    struct sockaddr_in6 ServerAddr;
+    struct sockaddr_in6 ClinetAddr;
 
     socklen_t AddrLen = sizeof(ClinetAddr);
 
@@ -91,7 +91,7 @@ int main(int argc , char * argv[])
     //  step 1 : createe TCP socket
     ///////////////////////////////////////////
 
-    ServerSocket = socket(AF_INET,SOCK_STREAM,0);
+    ServerSocket = socket(AF_INET6, SOCK_STREAM,0);
 
     if(ServerSocket < 0)
     {
@@ -110,7 +110,7 @@ int main(int argc , char * argv[])
 
     ServerAddr.sin_family = AF_INET;
     ServerAddr.sin_port = htons(Port);
-    ServerAddr.sin_addr.s_addr = INADDR_ANY;
+    ServerAddr.sin_addr.s_addr = INADDR_ANY; // ip address
 
     iRet = bind(ServerSocket,(struct sockaddr*)&ServerAddr,sizeof(ServerAddr));
 
