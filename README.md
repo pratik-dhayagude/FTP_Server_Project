@@ -45,3 +45,64 @@ This project showcases:
 	•	🧵 Multithreading / Multiprocessing
 	•	📡 Networking Protocols
 
+🔧 Enhancements Made in This Version
+
+The original FTP server functionality has been improved with the following additional features:
+
+1. 🔐 Improved Authentication System
+
+	•	Added secure username-password validation
+	•	Prevents unauthorized access to server files
+	•	Can be extended to support multi-user roles
+
+2. 📂 Advanced File Handling
+
+	•	Supports:
+	•	File upload (STOR)
+	•	File download (RETR)
+	•	Directory listing (LIST)
+	•	Enhanced error handling for invalid file paths
+	•	Improved file transfer reliability
+
+3. 🔄 Concurrent Client Handling (if you added it)
+
+	•	Server can handle multiple client requests efficiently
+	•	Uses threading / iterative handling for better performance
+	•	Reduces server blocking issues
+
+4. ⚡ Optimized Socket Communication
+
+	•	Improved data transfer speed
+	•	Efficient buffer handling
+	•	Reduced latency in client-server communication
+
+5. 📊 Logging & Debugging Support
+
+	•	Added logs for:
+	•	Client connections
+	•	Commands executed
+	•	File transfers
+	•	Helps in debugging and monitoring server activity
+
+6. 🧠 Better Command Processing
+
+	•	Structured parsing of FTP commands
+	•	Cleaner and modular code design
+	•	Easier to extend with new FTP commands
+
+7. 🛡️ Error Handling & Stability
+
+	•	Handles edge cases like:
+	•	Connection drop
+	•	Invalid commands
+	•	File not found
+	•	Prevents server crashes
+
+8. 🌐 Protocol-Level Understanding
+
+	•	Implementation aligns with core FTP concepts like:
+	•	Control connection
+	•	Data connection
+	•	Command-response mechanism
+	•	Inspired by real FTP implementations that support features like file transfer, directory management, and session handling  ￼
+
