@@ -4,7 +4,7 @@ The FTP Server Project is a robust and low-level network application that implem
 
 Designed to simulate real-world file transfer systems, the server efficiently handles multiple client connections, enabling secure and structured file exchange over a network. It reflects how traditional FTP services operate internally, including command handling, connection management, and data transfer mechanisms.  
 
-⚡ Advanced Project Overview
+⚡ Advanced Project Overview.
 
 This project is not just a basic file transfer tool—it is a miniature implementation of real FTP infrastructure, focusing on:
 
