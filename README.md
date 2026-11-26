@@ -104,5 +104,6 @@ The original FTP server functionality has been improved with the following addit
 	•	Control connection
 	•	Data connection
 	•	Command-response mechanism
-	•	Inspired by real FTP implementations that support features like file transfer, directory management, and session handling. ￼
+	•	Inspired by real FTP implementations that support features like file transfer, directory management, and session handling.
+
 
